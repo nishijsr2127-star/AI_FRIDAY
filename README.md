@@ -3,3 +3,34 @@ AI Friday Season 2 – Problem StatementsConsumer Packaged Goods Social Media Re
 
 
 question 2: 
+
+
+2. AI Friday Season 2 – Problem Statements
+Business Analysis Automated Impact Analysis Summarizer
+PROBLEM STATEMENT
+Business analysts often perform impact analysis to understand how proposed changes affect systems, processes, and stakeholders. This requires consolidating information from multiple documents and stakeholder inputs, which is time-consuming and prone to omissions. Existing tools do not automate impact summarization or provide consistent formats, leading to delays and inconsistent documentation quality.
+An AI summarizer that generates clear impact analysis reports from input documents can enhance analyst productivity and project alignment.
+Data Considerations
+Change request documents, stakeholder feedback, and system specifications in text or PDF format.
+Data sourced from internal project archives or synthetic generation.
+Volume sufficient for demo with 20 documents.
+Preprocessing includes OCR and text extraction.
+Privacy considerations require anonymization or synthetic data.
+Consider using synthetic or anonymized data where appropriate. Ensure data quality and relevance to the problem context.
+SOLUTION EXPECTATIONS
+An AI summarization tool that:
+Accepts multiple documents
+Generates structured impact analysis reports using GenAI capabilities
+Features include:
+Document upload
+Summary display
+Export options
+Constraints:
+Integration limited to local files
+Success Metrics:
+Summary completeness
+User satisfaction
+Demo should include:
+Interactive document upload
+Summary generation
+Feel free to explore creative solutions that align with the problem context and objectives.
