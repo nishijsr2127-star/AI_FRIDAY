@@ -1,2 +1,5 @@
 # AI_FRIDAY
 AI Friday Season 2 – Problem StatementsConsumer Packaged Goods Social Media Review AnalyzerPROBLEM STATEMENTCPG companies receive vast amounts of social media feedback that is difficult to analyze manually to gauge product sentiment and identify emerging issues. There is a need for an AI agent that summarizes customer opinions and extracts actionable insights quickly.Data Considerations (Guidelines):Social media posts and reviews scraped from public APIs (Twitter, Reddit) related to specific CPG products, labeled sentiment datasets for validation.Feel free to generate synthetic data where appropriate using the provided environment.SOLUTION EXPECTATIONSAn AI agent generating textual sentiment summaries and topic highlights accessible via a simple interface. Deliverables include sentiment reports, documentation, and a demo video. Success measured by classification accuracy and analysis speed improvement.Be creative to go beyond as you solve the above needs.
+
+
+question 2: 
