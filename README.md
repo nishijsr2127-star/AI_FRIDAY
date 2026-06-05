@@ -151,3 +151,49 @@ User satisfaction
 
 
 Be creative and go beyond while solving the above needs.
+
+
+AI Friday Season 2 – Problem Statements
+Personalized Retail Product Description Generator for eCommerce
+Problem Statement
+Retailers often struggle to create compelling and unique product descriptions at scale, especially for large inventories with frequent updates or new arrivals. Many product descriptions are generic, poorly optimized for customer engagement, and lack personalization, reducing conversion rates.
+Marketing teams and content creators face the burden of manually writing or adapting descriptions for thousands of SKUs, which slows time-to-market and incurs high labor costs. Existing template-based approaches are rigid and fail to capture nuanced product features or customer preferences.
+There is an unmet need for an AI-powered solution that can generate attractive, tailored product descriptions based on minimal input data, enabling faster content creation and improved customer experience.
+This would help retailers:
+Increase sales
+Reduce bounce rates
+Enhance brand voice consistency across channels
+Data Considerations
+Structured product attribute data in JSON or CSV format, including:
+Product name
+Features
+Category
+Price
+Sample datasets may come from:
+Internal retail catalogs
+Public eCommerce product datasets
+Data volume should be moderate (hundreds to low thousands of SKUs) for demo purposes.
+Minimal preprocessing should be required beyond normalization of attribute fields.
+No sensitive data is involved.
+Synthetic product data can be generated to simulate diverse catalogs.
+Consider using synthetic or anonymized data where appropriate.
+Ensure data quality and relevance to the problem context.
+Solution Expectations
+Develop a simple web application or command-line tool where users can:
+Upload product attribute files, or
+Input single product details
+and receive AI-generated product descriptions optimized for clarity and customer appeal.
+Expected Features
+Tone adjustment:
+Formal
+Casual
+Length control
+Batch generation
+Export options
+Success Criteria
+Positive user feedback on description relevance and attractiveness
+Demonstration of reduced content creation time
+Ability to scale content generation efficiently
+Technology Focus
+The solution should leverage Generative AI (GenAI) and natural language generation to automate creative content production, enabling faster and more scalable retail marketing workflows.
+Teams are encouraged to explore creative solutions that align with the problem context and objectives.
