@@ -197,3 +197,40 @@ Ability to scale content generation efficiently
 Technology Focus
 The solution should leverage Generative AI (GenAI) and natural language generation to automate creative content production, enabling faster and more scalable retail marketing workflows.
 Teams are encouraged to explore creative solutions that align with the problem context and objectives.
+
+==============================================================================================
+Generate a complete end-to-end full stack AI application for the attached problem statement.
+
+The project must be fully runnable locally in VS Code after installing dependencies. Generate complete executable code only. No pseudocode, TODOs or placeholders.
+
+Requirements:
+
+- Generate complete frontend and backend.
+- Include folder structure, requirements.txt, package.json, README.md, app.py and .env.example.
+- Generate synthetic data through data/generate_data.py that asks the user for the number of records and creates realistic postal datasets instead of static CSV files.
+- Use FastAPI for backend and React + TypeScript + Tailwind for frontend.
+- Use LangChain + ChromaDB for Retrieval Augmented Generation.
+- Keep all LLM logic inside backend/llm.py.
+- Keep all RAG logic inside backend/rag.py.
+- Keep prompts inside backend/prompts.py.
+- Never call the LLM directly from API routes.
+- Use Azure OpenAI configured only through environment variables.
+- Implement agent-based architecture with separate agents for address resolution, delivery exception analysis, recommendation generation, complaint analysis and operational insights.
+- Build reusable services for address parsing, geospatial analysis, confidence scoring, historical pattern analysis and analytics.
+- Generate realistic synthetic datasets including parcel records, delivery history, failed deliveries, return-to-sender cases, PIN code directory, post office directory, GPS coordinates, delivery remarks and customer complaints.
+- RAG knowledge base should index postal rules, delivery guidelines, PIN code directory, historical delivery records and operational manuals.
+- AI must retrieve relevant context before generating recommendations.
+- Predict the most probable delivery address for incomplete or ambiguous addresses.
+- Generate delivery confidence scores with explanations.
+- Recommend corrective actions for delivery staff.
+- Detect recurring failure patterns and operational bottlenecks.
+- Provide explainable AI reasoning for every recommendation.
+- Include an AI Copilot where postal staff can ask questions in natural language about delivery exceptions, addresses, complaints and delivery history.
+- Include CSV upload for batch delivery exception analysis.
+- Include export of generated recommendations.
+- Build an enterprise-grade dashboard inspired by Microsoft Fabric and Power BI with dark mode, responsive layout, interactive charts and maps.
+- Dashboard should display delivery success rate, RTS trends, delivery exception trends, confidence score distribution, hotspot regions, complaint analytics, address quality metrics and operational KPIs.
+- Include geospatial visualization of delivery hotspots using Leaflet or Mapbox with synthetic coordinates.
+- Generate a flow diagram showing complete application architecture and request flow.
+- Optimize the solution for hackathon judging with emphasis on business value, AI capability, usability, explainability and visual appeal.
+- Do not generate Docker, Kubernetes, CI/CD, deployment, DevOps, monitoring or testing files.
