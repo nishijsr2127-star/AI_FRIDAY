@@ -199,6 +199,8 @@ The solution should leverage Generative AI (GenAI) and natural language generati
 Teams are encouraged to explore creative solutions that align with the problem context and objectives.
 
 ==============================================================================================
+
+
 Generate a complete end-to-end full stack AI application for the attached problem statement.
 
 The project must be fully runnable locally in VS Code after installing dependencies. Generate complete executable code only. No pseudocode, TODOs or placeholders.
