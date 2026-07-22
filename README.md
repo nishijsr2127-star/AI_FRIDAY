@@ -236,3 +236,9 @@ Requirements:
 - Generate a flow diagram showing complete application architecture and request flow.
 - Optimize the solution for hackathon judging with emphasis on business value, AI capability, usability, explainability and visual appeal.
 - Do not generate Docker, Kubernetes, CI/CD, deployment, DevOps, monitoring or testing files.
+
+- =============
+- ML Model	ML Problem Type	Input Features	Output	Algorithm	Business Value	Agent Using It
+⭐⭐⭐⭐⭐	Delivery Success Prediction	Binary Classification	Address, PIN, GPS, Delivery Attempts, Postman Remarks, Distance, Area, Historical Deliveries	Delivery Success Probability (0–100%)	XGBoost / LightGBM	Predict whether a parcel will be delivered successfully	Prediction Agent
+⭐⭐⭐⭐⭐	Return-to-Sender (RTS) Prediction	Binary Classification	Address Quality, Delivery Attempts, Customer History, Delivery Exceptions	RTS Probability	XGBoost	Prevent unnecessary dispatch and reduce RTS cases	Prediction Agent
+⭐⭐⭐⭐⭐	Address Quality Score	Classification / Regression	House No., Street, Landmark, PIN, City, GPS, Address Length	Address Quality Score (0–100)	Random Forest / XGBoost	Identify incomplete or ambiguous addresses before dispatch	Address Validation Agent
